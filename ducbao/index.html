@@ -121,7 +121,7 @@ a {color:#000;font-size:14px;}
 <span class='say'>Chồng biết chồng dạo này hơi bận</span><br/>
 <span class='say'>nên không có thời gian nhiều</span><br/>
 <span class='say'>Chồng mong khi về Việt Nam</span><br/>
-<span class='say'>Chồng có thể dẫn vợ đi ăn những món ngon nh</span><br/>
+<span class='say'>Chồng có thể dẫn vợ đi ăn những món ngon </span><br/>
 <span class='say'>giống như hồi còn bên nhật</span><br/>
 <span class='say'>Chồng yêu vợ nhiều ạ</span><br/>
 <span class='say'><span class='space'></span>Mãi yêu vợ</span>
@@ -265,12 +265,6 @@ a {color:#000;font-size:14px;}
 		    together.setSeconds(0);					
 		    together.setMilliseconds(0);			
 
-		    $("#code").show().typewriter();
-            $("#clock-box").fadeIn(500);
-            while (true) {
-                timeElapse(together);
-                $await(Jscex.Async.sleep(1000));
-            }
         }));
 
         var runAsync = eval(Jscex.compile("async", function () {
